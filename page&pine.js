@@ -1,5 +1,10 @@
 let question=document.querySelector(".question")
-question.addEventListener("click",()=>{
-    question.classList.toggle("active")
-
+let answer=document.querySelector(".answer")
+let questions=document.querySelector(".questions")
+questions.addEventListener("click",()=>{
+    answer.classList.toggle("active")
+    if(answer.classList.contains("active")){
+        
+    }
+    
 })
